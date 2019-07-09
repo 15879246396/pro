@@ -1,0 +1,41 @@
+@media (min-width:1120px) {
+    .header-title{
+        width: 1120px;
+    }
+}
+@media (max-width:1440px){
+    .header-title{
+        width: 1120px;
+        margin: 0 auto;
+    }
+}
+.header-title{
+    height: 58px;
+}
+.logo{
+    width: 136px;
+}
+.logo-img{
+    display: block;
+    height: 58px;
+    background: url(../../img/header/logo1.jpg) no-repeat;
+    background-size: 100%;
+}
+.header-nav{
+    margin-left: 25px
+}
+
+.header-nav li{
+    float: left;
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 58px;
+    color: #333;
+}
+.choose{
+    display: block;
+    width: 75px;
+    height: 58px;
+    background: url(../../img/header/logo2.jpg) no-repeat;
+    background-size: 100%; 
+}
