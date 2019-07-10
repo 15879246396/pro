@@ -53,6 +53,7 @@ button::-moz-focus-inner,
   padding: 0;
   -webkit-appearance: button;
 }
+/* 自定义样式 */
 .clearfix:after{
 	content: '';
 	display: block;  
@@ -64,6 +65,19 @@ button::-moz-focus-inner,
 .f-r{
     float: right;
 }
+.d-none{
+    display: none;
+}
+.d-block{
+    display: block;
+}
+.p-a{
+    position: absolute;
+}
+.p-r{
+    position: relative;
+}
+
 #wasp-content-box{
     width: 1020px;
     margin: 0 auto;
