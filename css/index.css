@@ -1,5 +1,35 @@
- /* 工作区,内容盒子  */
-.contain{
+/* 头部轮播图 */
+.slide-box{
+   position: relative;
+   margin-bottom:20px; 
+   height: 421px;
+}
+
+.slide-imgs a>img{
+    width: 100%;
+}
+.img-detail{
+    top: 8%;
+    left: 10%;
+    font-size: 20px;
+    color: #fff;
+}
+.slide-nav{
+    width: 110px;
+    right: 40px;
+    top: 35px;
+}
+.slide-nav li>img{
+    width: 110px;
+    height: 62px;
+    margin-bottom:4px;
+    border-radius:5px; 
+}
+.slide-nav li>img:hover{
+    transform: scale(1.1);
+}
+/* 工作区,内容盒子  */
+ .contain{
     width: 1000px;
     margin: 0 auto;
 }
@@ -159,15 +189,16 @@
 }
 .right_nav>ul li{
     width:170px;
-    float: left;
-    display: inline;
-    text-align: center;
+    /* float: left; */
+    /* display: inline; */
+    /* text-align: center; */
 }
 .right_nav>ul li:first-child a{
-    font-size: 20px;
+    font-size: 18px;
     color: #ff9d00;
     cursor: pointer;
 }
+<<<<<<< HEAD
 .right_menu{
     display: inline-block;
     margin-left: 9px;
@@ -339,3 +370,5 @@
     background-position: -30px -50px!important;
     background: url(/img/index/index-sprites9.png) no-repeat;
 }
+=======
+>>>>>>> 9a1c9fba759c1b986eff98561ade1ab414118157
