@@ -18,7 +18,7 @@
 .logo-img{
     display: block;
     height: 58px;
-    background: url(../../img/header/logo1.jpg) no-repeat;
+    background: url(../../img/index/logo1.jpg) no-repeat;
     background-size: 100%;
 }
 .header-nav{
@@ -36,6 +36,6 @@
     display: block;
     width: 75px;
     height: 58px;
-    background: url(../../img/header/logo2.jpg) no-repeat;
+    background: url(../../img/index/logo2.jpg) no-repeat;
     background-size: 100%; 
 }
