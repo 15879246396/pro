@@ -2,7 +2,6 @@
 .slide-box{
    position: relative;
    margin-bottom:20px; 
-   height: 421px;
 }
 
 .slide-imgs a>img{
@@ -99,6 +98,20 @@
     float: left;
     width: 260px;
 }
+.left_news{
+    height: 30px;
+    width: 260px;
+    line-height: 30px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    position: relative;
+}
+.left_news>a{
+    display: inline !important;
+    margin-left: 5px;
+    color: #666 !important;
+}
 .aside_box{
     margin-bottom: 30px;
 }
@@ -187,17 +200,66 @@
     position: relative;
     z-index: 11;
 }
-.right_nav>ul li{
+.right_nav>ul>li{
     width:170px;
-    /* float: left; */
-    /* display: inline; */
-    /* text-align: center; */
+    float: left;
+    text-align: center;
 }
 .right_nav>ul li:first-child a{
     font-size: 18px;
     color: #ff9d00;
     cursor: pointer;
 }
+.ye_button{
+    padding: 20px 5px;
+    line-height: 24px;
+    text-align: right;
+    font-size: 12px;
+    color: #999;
+}
+.count{
+    padding-right: 12px;
+}
+.ye_button span:nth-child(2){
+    background-color: #ff9d00;
+    padding: 0 7px;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 4px;
+    color: #fff;
+    vertical-align: middle;
+}
+.ye_count{
+    display: inline-block;
+    margin-right: 1px;
+    margin-left: 1px;
+    padding: 0 7px;
+    border: 0 none;
+    background: 0;
+    border-radius: 4px;
+    color: #666;
+    vertical-align: middle;
+}
+.ye_count:hover{
+    background-color: #efefef;
+    border: 0 none;
+    text-decoration: none;
+    color: #666;
+}
+.ye_next{
+    background-color: #ff9d00;
+    display: inline-block;
+    padding:0 5px;
+    border-radius: 4px;
+    color: #fff;
+    vertical-align: middle;
+}
+.ye_next:hover{
+    background-color: #ff8a00;
+    color: #fff;
+    text-decoration: none;
+}
+
 <<<<<<< HEAD
 .right_menu{
     display: inline-block;
@@ -215,15 +277,11 @@
     background-color: #ff9d00;
     color: #fff;
 }
-.menu_icon{
-    float: left;
-    margin: 6px 5px 0 0;
-    width: 11px;
-    height: 8px;
-    background: url(/img/header/index-sprites9.png) no-repeat 0 -130px;
-    background-position: 0 -140px;
+.screen{
+    font-size:12px;
+    padding: 2px 15px;
+    border: 1px solid #999;
 }
-
 .right_nav>ul li:last-child a{
     font-size: 20px;
     color: #333;
@@ -253,7 +311,7 @@
     background-position: 0 0;
     overflow: hidden;
     vertical-align: -3px;
-    background: url(/img/header/index-sprites9.png) no-repeat;
+    background: url(/img/index/index-sprites9.png) no-repeat;
 }
 .r-item{
     padding: 15px 0;
