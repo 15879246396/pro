@@ -212,22 +212,14 @@
 }
 .right_nav>ul>li{
     width:170px;
-<<<<<<< HEAD
-    /* float: left; */
-    /* display: inline; */
-    /* text-align: center; */
-=======
     float: left;
     text-align: center;
->>>>>>> 5e75b75dd62592a02da7e2fa30ca1089daf34c89
 }
 .right_nav>ul li:first-child a{
     font-size: 18px;
     color: #ff9d00;
     cursor: pointer;
 }
-<<<<<<< HEAD
-=======
 .ye_button{
     padding: 20px 5px;
     line-height: 24px;
@@ -278,8 +270,6 @@
     text-decoration: none;
 }
 
->>>>>>> 5e75b75dd62592a02da7e2fa30ca1089daf34c89
-<<<<<<< HEAD
 .right_menu{
     display: inline-block;
     margin-left: 9px;
@@ -448,5 +438,3 @@
     background-position: -30px -50px!important;
     background: url(/img/index/index-sprites9.png) no-repeat;
 }
-=======
->>>>>>> 9a1c9fba759c1b986eff98561ade1ab414118157
