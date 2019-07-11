@@ -25,6 +25,19 @@
     background: url(/img/index/mfw-footer-sprite7.png) no-repeat 0 -30px;
     overflow: hidden;
 }
+.footer_up{
+    padding: 30px 8px 40px 8px;
+    border-bottom: 1px solid #575a5b;
+}
+.intro-ft{
+    line-height: 20px
+}
+.intro-ft>h4{
+    font-size: 14px;
+}
+.intro-ft>p{
+    font-size: 12px;
+}
 
 
 
