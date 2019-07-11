@@ -177,8 +177,18 @@
     background-color: #ff6262;
     font-size: 12px;
 }
-
-
+.screen_icon{
+    background: url(/img/index/index-sprites9.png) no-repeat 0 -130px;
+    display: inline-block;
+    margin: 6px 5px 0 0;
+    width: 11px;
+    height: 8px;
+}
+.screen:hover {
+    border-color: #ff9d00;
+    background-color: #ff9d00;
+    color: #fff;
+}
 .right_aside{
     float: right;
     width: 700px;
@@ -279,8 +289,10 @@
 }
 .screen{
     font-size:12px;
-    padding: 2px 15px;
-    border: 1px solid #999;
+    color:#666;
+    margin-left:5px;
+    padding: 2px 12px;
+    border: 1px solid #e5e5e5;
 }
 .right_nav>ul li:last-child a{
     font-size: 20px;
