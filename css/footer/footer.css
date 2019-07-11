@@ -65,13 +65,36 @@
     vertical-align: middle;
     width:12px;
 }
-footer_but a{
-    color:#c2c2c2 !important;
+.footer_but a{
+    color:#c2c2c2;
 }
-
-
-
-
+.footer_but span{
+    margin-left: 4px;
+}
+.col{
+    color:#ff9d00;
+}
+.f_but{
+    margin:0 auto;
+    text-align: center;
+}
+.f_but a{
+    display: inline-block;
+    margin-left: 10px;
+    width: 90px;
+    height: 30px;
+    background: url(/img/index/mfw-footer-sprite7.png) no-repeat 0 -70px;
+    overflow: hidden;
+}
+.f_but a:nth-child(2){
+    background: url(/img/index/mfw-footer-sprite7.png) no-repeat 0 -110px;
+}
+.f_but a:nth-child(3){
+    background: url(/img/index/wKgEaVzlS06AVwj0AAAa_HtuzSo207.png) no-repeat;
+}
+.f_but a:nth-child(4){
+    background: url(/img/index/wKgEaVzlS8yAX2c6AAAblEJMLps615.png) no-repeat;
+}
 
 
 
