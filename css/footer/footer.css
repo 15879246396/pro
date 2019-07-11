@@ -5,11 +5,26 @@
     padding-bottom: 20px;
     font-size: 12px;
 }
+.footer a:hover{
+    color:#fff;
+}
 .footer_contain{
     width: 1105px;
     margin:0 auto;
 }
-
+.footer_but{
+    padding: 12px 0 12px 7px;
+    margin-top: -1px;
+    border-top: 1px solid #575a5b;
+}
+.footer_but>a{
+    float: left;
+    margin: 2px 20px 0 0;
+    width: 136px;
+    height: 39px;
+    background: url(/img/index/mfw-footer-sprite7.png) no-repeat 0 -30px;
+    overflow: hidden;
+}
 
 
 
@@ -39,8 +54,20 @@
     border-bottom: 1px solid #575a5b;
     padding: 17px 0 17px 8px;
 }
-
-
+.footer_link a{
+    display: inline-block;
+    margin-right: 12px;
+    color:#c2c2c2;
+}
+.footer_icon{
+    margin: 0 2px 4px 0;
+    border: 0;
+    vertical-align: middle;
+    width:12px;
+}
+footer_but a{
+    color:#c2c2c2 !important;
+}
 
 
 
